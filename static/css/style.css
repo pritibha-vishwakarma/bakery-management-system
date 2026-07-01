@@ -1,0 +1,54 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background-color: #5D4037;
+    min-height: 100vh;
+}
+
+.sidebar h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #E67E22;
+}
+
+/* Top Navbar */
+
+.navbar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Dashboard Cards */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
